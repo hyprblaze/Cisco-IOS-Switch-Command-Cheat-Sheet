@@ -2,11 +2,8 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
-  <a href=https://www.netacad.com/><img src="https://img.shields.io/badge/Cisco-Networking-blue?logo=cisco&logoColor=white">
-    
-  <a href=https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html><img src="https://img.shields.io/badge/CCNA-Study%20Guide-orange">
-  
-  <a href=https://www.cisco.com/site/us/en/learn/training-certifications/tech-roles/network-engineer.html><img src="https://img.shields.io/badge/Role-Network%20Engineer-green">
-  
-  <a href=https://github.com/hyprblaze><img src="https://img.shields.io/badge/Made%20by-HYPRBLAZE-purple?logo=github">
+  <a href=https://www.netacad.com/><img src="https://img.shields.io/badge/Cisco-Networking-blue?logo=cisco&logoColor=white"></a>
+  <a href=https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html><img src="https://img.shields.io/badge/CCNA-Study%20Guide-orange"></a>
+  <a href=https://www.cisco.com/site/us/en/learn/training-certifications/tech-roles/network-engineer.html><img src="https://img.shields.io/badge/Role-Network%20Engineer-green"></a>
+  <a href=https://github.com/hyprblaze><img src="https://img.shields.io/badge/Made%20by-HYPRBLAZE-purple?logo=github"></a>
 </p>
