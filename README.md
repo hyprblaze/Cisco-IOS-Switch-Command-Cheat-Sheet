@@ -11,7 +11,9 @@
 <h4 align="center">📘 A Cisco IOS Switch Command Cheat Sheet for CCNA preparation and quick reference</h4>
 Information is compiled from various official and community sources.  
 Feel free to use this as a study aid or a handy guide when configuring or learning Cisco switch networking concepts. 🚀
-
+---
+## 🔑 Topics / Tags  
+`Cisco` · `Networking` · `CCNA` · `Switching` · `IOS` · `Configuration` · `CheatSheet` · `VLAN` · `STP` · `Port Security` · `EtherChannel` · `SSH` · `VTP` · `Trunking`
 ---
 ## 📑 Table of Contents
 - [Configuration Modes](#configuration-modes)
