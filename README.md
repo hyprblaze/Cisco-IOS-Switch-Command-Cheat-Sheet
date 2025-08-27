@@ -13,7 +13,8 @@ Information is compiled from various official and community sources.
 Feel free to use this as a study aid or a handy guide when configuring or learning Cisco switch networking concepts. 🚀
 
 ---
-
+## 📑 Table of Contents
+- [Configuration Modes](#configuration-modes)
 ---
 
 ## ⚙️ Configuration Modes
