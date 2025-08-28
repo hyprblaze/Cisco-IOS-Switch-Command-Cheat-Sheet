@@ -20,6 +20,7 @@ Feel free to use this as a study aid or a handy guide when configuring or learni
 
 ## 📑 Table of Contents
 - [Configuration Modes](#configuration-modes)
+- [Important `show` Commands](#important-show-commands)
 ---
 
 ## ⚙️ Configuration Modes
@@ -29,3 +30,18 @@ Switch> enable         # Privileged EXEC mode
 Switch# configure terminal   # Global config mode
 Switch(config)# interface fa0/1
 Switch(config-if)# description Uplink-to-Router
+```
+
+---
+
+## 🔎 Important `show` Commands
+```bash
+show running-config
+show startup-config
+show vlan brief
+show interfaces status
+show mac address-table
+show spanning-tree
+```
+
+---
