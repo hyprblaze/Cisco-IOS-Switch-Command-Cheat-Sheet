@@ -23,7 +23,7 @@ Feel free to use this as a study aid or a handy guide when configuring or learni
 
 - [Important `show` Commands](#important-show-commands)
 
-- [Filtering Output](#filtering-information-from-show-commands)
+- [Filtering Information from `show` Commands](#filtering-information-from-show-commands)
 ---
 
 ## Configuration Modes
