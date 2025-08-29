@@ -20,10 +20,14 @@ Feel free to use this as a study aid or a handy guide when configuring or learni
 
 ## 📑 Table of Contents
 - [Configuration Modes](#configuration-modes)
+
 - [Important `show` Commands](#important-show-commands)
+
+- [Filtering Output](#filtering-information-from-show-commands)
 ---
 
-## ⚙️ Configuration Modes
+## Configuration Modes
+
 ```bash
 Switch>                # User EXEC mode
 Switch> enable         # Privileged EXEC mode
@@ -34,7 +38,7 @@ Switch(config-if)# description Uplink-to-Router
 
 ---
 
-## 🔎 Important `show` Commands
+## Important `show` Commands
 ```bash
 show running-config        # Displays the active configuration in RAM
 show startup-config        # Displays the saved config in NVRAM (loaded on boot)
@@ -42,4 +46,14 @@ show vlan brief            # Lists VLANs, names, status, and assigned ports
 show interfaces status     # Shows interface status (up/down, VLAN, speed, duplex)
 show mac address-table     # Displays learned MAC addresses and their ports
 show spanning-tree         # Shows STP information (root bridge, port roles/states)
+```
 
+---
+## Filtering Information from `show` Commands
+```bash
+show running-config | include vlan        # Show only lines containing "vlan"
+show interfaces | begin GigabitEthernet0/1   # Display output starting from Gi0/1
+show mac address-table | exclude dynamic  # Hide all lines with the word "dynamic"
+```
+
+---
