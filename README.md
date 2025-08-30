@@ -24,6 +24,8 @@ Feel free to use this as a study aid or a handy guide when configuring or learni
 - [Important `show` Commands](#important-show-commands)
 
 - [Filtering Information from `show` Commands](#filtering-information-from-show-commands)
+
+- - [Managing Multiple Interfaces](#Managing-Multiple-Interfaces)
 ---
 
 ## Configuration Modes
@@ -54,6 +56,13 @@ show spanning-tree         # Shows STP information (root bridge, port roles/stat
 show running-config | include vlan        # Show only lines containing "vlan"
 show interfaces | begin GigabitEthernet0/1   # Display output starting from Gi0/1
 show mac address-table | exclude dynamic  # Hide all lines with the word "dynamic"
+```
+
+## Managing Multiple Interfaces
+```bash
+interface range gi0/1 - 10     # Select multiple interfaces at once (Gi0/1 to Gi0/10)
+switchport mode access         # Set all selected ports to access mode
+switchport access vlan 20      # Assign VLAN 20 to all selected ports
 ```
 
 ---
