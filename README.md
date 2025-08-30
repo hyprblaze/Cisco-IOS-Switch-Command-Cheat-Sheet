@@ -25,7 +25,7 @@ Feel free to use this as a study aid or a handy guide when configuring or learni
 
 - [Filtering Information from `show` Commands](#filtering-information-from-show-commands)
 
-- - [Managing Multiple Interfaces](#Managing-Multiple-Interfaces)
+- [Managing Multiple Interfaces](#Managing-Multiple-Interfaces)
 ---
 
 ## Configuration Modes
