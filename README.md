@@ -45,7 +45,7 @@ Switch(config-if)# description Uplink-to-Router
 show running-config        # Displays the active configuration in RAM
 show startup-config        # Displays the saved config in NVRAM (loaded on boot)
 show vlan brief            # Lists VLANs, names, status, and assigned ports
-show interfaces status     # Shows interface status (up/down, VLAN, speed, duplex)
+show interfaces status     # Shows interface status (UP/DOWN, VLAN, speed, duplex)
 show mac address-table     # Displays learned MAC addresses and their ports
 show spanning-tree         # Shows STP information (root bridge, port roles/states)
 ```
