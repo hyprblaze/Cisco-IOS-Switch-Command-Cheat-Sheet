@@ -57,12 +57,31 @@ show running-config | include vlan        # Show only lines containing "vlan"
 show interfaces | begin GigabitEthernet0/1   # Display output starting from Gi0/1
 show mac address-table | exclude dynamic  # Hide all lines with the word "dynamic"
 ```
-
+---
 ## Managing Multiple Interfaces
 ```bash
 interface range gi0/1 - 10     # Select multiple interfaces at once (Gi0/1 to Gi0/10)
 switchport mode access         # Set all selected ports to access mode
 switchport access vlan 20      # Assign VLAN 20 to all selected ports
 ```
+---
+## 🗂 VLANs
 
+### Creating VLANs
+```bash
+vlan 10              # Create VLAN 10
+name VLAN10           # Assign a name ("VLAN10") to the VLAN
+exit                 # Exit VLAN configuration mode
+```
+### Deleting VLANs
+```bash
+no vlan 10           # Delete VLAN 10
+delete flash:vlan.dat   # Delete the entire VLAN database from flash
+```
+### Assigning Interfaces to a VLAN
+```bash
+interface gi0/1             # Enter interface Gi0/1
+switchport mode access       # Set port as access
+switchport access vlan 10    # Assign VLAN 10 to the port
+```
 ---
