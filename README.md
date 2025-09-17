@@ -26,6 +26,9 @@ Feel free to use this as a study aid or a handy guide when configuring or learni
 - [Filtering Information from `show` Commands](#filtering-information-from-show-commands)
 
 - [Managing Multiple Interfaces](#Managing-Multiple-Interfaces)
+
+- [VLANs](#VLANs)
+
 ---
 
 ## Configuration Modes
@@ -65,7 +68,7 @@ switchport mode access         # Set all selected ports to access mode
 switchport access vlan 20      # Assign VLAN 20 to all selected ports
 ```
 ---
-## 🗂 VLANs
+## VLANs
 
 ### Creating VLANs
 ```bash
