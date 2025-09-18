@@ -31,6 +31,9 @@ Feel free to use this as a study aid or a handy guide when configuring or learni
 
 - [Trunks](#Trunks)
 
+- [VLAN Troubleshooting](#VLAN-Troubleshooting)
+
+
 ---
 
 ## Configuration Modes
