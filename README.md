@@ -105,3 +105,12 @@ switchport mode dynamic desirable   # Actively try to form a trunk
 switchport mode dynamic auto        # Passively form a trunk if other side is trunk/desirable
 switchport nonegotiate              # Disable DTP negotiation
 ```
+
+## VLAN Troubleshooting
+```bash
+show vlan brief             # Display all VLANs and their assigned ports
+show interfaces trunk       # Verify trunk ports and allowed VLANs
+show mac address-table      # View MAC addresses learned on the switch
+show running-config         # Check VLAN and interface configurations
+```
+
