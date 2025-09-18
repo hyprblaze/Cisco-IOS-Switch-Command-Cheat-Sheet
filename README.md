@@ -29,6 +29,8 @@ Feel free to use this as a study aid or a handy guide when configuring or learni
 
 - [VLANs](#VLANs)
 
+- [Trunks](#Trunks)
+
 ---
 
 ## Configuration Modes
@@ -88,3 +90,18 @@ switchport mode access       # Set port as access
 switchport access vlan 10    # Assign VLAN 10 to the port
 ```
 ---
+## Trunks
+
+### Configuring Trunks
+```bash
+interface gi0/24                          # Enter trunk interface (Gi0/24)
+switchport mode trunk                     # Set port as trunk
+switchport trunk allowed vlan 10,20,30    # Allow only VLANs 10, 20, and 30
+switchport trunk native vlan 99           # Set VLAN 99 as the native VLAN
+```
+### Dynamic Trunking Protocol (DTP)
+```bash
+switchport mode dynamic desirable   # Actively try to form a trunk
+switchport mode dynamic auto        # Passively form a trunk if other side is trunk/desirable
+switchport nonegotiate              # Disable DTP negotiation
+```
