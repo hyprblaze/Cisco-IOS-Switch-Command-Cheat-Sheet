@@ -33,6 +33,7 @@ Feel free to use this as a study aid or a handy guide when configuring or learni
 
 - [VLAN Troubleshooting](#VLAN-Troubleshooting)
 
+- [Voice VLANs](#Voice-VLANs)
 
 ---
 
@@ -117,7 +118,7 @@ show mac address-table      # View MAC addresses learned on the switch
 show running-config         # Check VLAN and interface configurations
 ```
 ---
-## Voice VLANs  
+## Voice VLANs
 
 ```bash
 interface gi0/5              # Enter interface Gi0/5
