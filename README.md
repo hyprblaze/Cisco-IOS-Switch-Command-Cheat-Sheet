@@ -126,5 +126,24 @@ switchport mode access       # Set port as access
 switchport access vlan 10    # Assign VLAN 10 for data
 switchport voice vlan 20     # Assign VLAN 20 for voice traffic (IP phones)
 ```
+---
+## SSH
+
+### Initial SSH Setup
+```bash
+hostname Switch1                        # Set device hostname  
+ip domain-name example.com              # Define domain name (needed for RSA key)  
+crypto key generate rsa                 # Generate RSA keys for SSH  
+username admin privilege 15 secret cisco123   # Create local admin user  
+line vty 0 4                            # Enter VTY line configuration (remote access)  
+ transport input ssh                    # Allow only SSH (disable Telnet)  
+ login local                            # Use local user database for login  
+```
+### Modifying SSH Config
+```bash
+ip ssh version 2                        # Enable SSH version 2 (more secure)  
+ip ssh time-out 60                      # Set SSH idle timeout to 60 seconds  
+ip ssh authentication-retries 3         # Allow max 3 login attempts  
+```
 
 
