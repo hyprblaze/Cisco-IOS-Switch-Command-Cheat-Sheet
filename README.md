@@ -35,6 +35,9 @@ Feel free to use this as a study aid or a handy guide when configuring or learni
 
 - [Voice VLANs](#Voice-VLANs)
 
+- [SSH](#SSH)
+
+
 ---
 
 ## Configuration Modes
