@@ -108,7 +108,7 @@ switchport mode dynamic desirable   # Actively try to form a trunk
 switchport mode dynamic auto        # Passively form a trunk if other side is trunk/desirable
 switchport nonegotiate              # Disable DTP negotiation
 ```
-
+---
 ## VLAN Troubleshooting
 ```bash
 show vlan brief             # Display all VLANs and their assigned ports
@@ -116,4 +116,14 @@ show interfaces trunk       # Verify trunk ports and allowed VLANs
 show mac address-table      # View MAC addresses learned on the switch
 show running-config         # Check VLAN and interface configurations
 ```
+---
+## Voice VLANs  
+
+```bash
+interface gi0/5              # Enter interface Gi0/5
+switchport mode access       # Set port as access
+switchport access vlan 10    # Assign VLAN 10 for data
+switchport voice vlan 20     # Assign VLAN 20 for voice traffic (IP phones)
+```
+
 
