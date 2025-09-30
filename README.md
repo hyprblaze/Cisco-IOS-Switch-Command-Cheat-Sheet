@@ -37,6 +37,7 @@ Feel free to use this as a study aid or a handy guide when configuring or learni
 
 - [SSH](#SSH)
 
+- [Dynamic Port Securit](#Dynamic-Port-Security)
 
 ---
 
