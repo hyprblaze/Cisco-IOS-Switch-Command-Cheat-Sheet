@@ -148,5 +148,16 @@ ip ssh version 2                        # Enable SSH version 2 (more secure)
 ip ssh time-out 60                      # Set SSH idle timeout to 60 seconds  
 ip ssh authentication-retries 3         # Allow max 3 login attempts  
 ```
+---
+## Port Security
 
-
+### Dynamic Port Security  
+```bash
+interface gi0/2                              # Enter interface  
+switchport mode access                       # Set interface to access mode  
+switchport port-security                     # Enable port security  
+switchport port-security maximum 2           # Allow max 2 MAC addresses  
+switchport port-security violation shutdown  # Shutdown port if violation occurs  
+```
+### Sticky Port Security
+```bash
