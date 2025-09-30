@@ -169,3 +169,10 @@ switchport port-security mac-address sticky  # Learn & save MAC addresses dynami
 show port-security interface gi0/2           # Check security settings for interface  
 show port-security address                   # View secure MAC addresses learned  
 ```
+### Err-Disabled Interfaces
+```bash
+show interface status err-disabled           # Show interfaces in error-disabled state  
+errdisable recovery cause psecure-violation  # Enable automatic recovery for port-security violations  
+errdisable recovery interval 300             # Set recovery interval (300 seconds)  
+```
+---
