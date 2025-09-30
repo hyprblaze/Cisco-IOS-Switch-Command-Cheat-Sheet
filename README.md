@@ -161,3 +161,6 @@ switchport port-security violation shutdown  # Shutdown port if violation occurs
 ```
 ### Sticky Port Security
 ```bash
+interface gi0/2                              # Enter interface  
+switchport port-security mac-address sticky  # Learn & save MAC addresses dynamically  
+```
