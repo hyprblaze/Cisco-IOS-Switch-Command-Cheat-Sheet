@@ -177,3 +177,17 @@ errdisable recovery cause psecure-violation  # Enable automatic recovery for por
 errdisable recovery interval 300             # Set recovery interval (300 seconds)  
 ```
 ---
+## VTP (VLAN Trunking Protocol)  
+
+### Configuring VTP
+```bash
+vtp mode server                 # Set switch as VTP server (can create/modify VLANs)  
+vtp domain CCNA-Lab             # Define VTP domain name (must match across switches)  
+vtp password cisco123           # Set a password for VTP updates
+```
+### VTP Verification
+```bash
+show vtp status                 # Display VTP mode, domain, and revision number  
+```
+---
+---
