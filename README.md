@@ -39,7 +39,7 @@ Feel free to use this as a study aid or a handy guide when configuring or learni
 
 - [Dynamic Port Security](#Dynamic-Port-Security)
 
-- [VTP (VLAN Trunking Protocol) ](VTP-(VLAN-Trunking-Protocol))
+- [VTP (VLAN Trunking Protocol) ](VLAN-Trunking-Protocol)
 ---
 
 ## Configuration Modes
@@ -178,7 +178,7 @@ errdisable recovery cause psecure-violation  # Enable automatic recovery for por
 errdisable recovery interval 300             # Set recovery interval (300 seconds)  
 ```
 ---
-## VTP (VLAN Trunking Protocol)  
+## VLAN Trunking Protocol
 
 ### Configuring VTP
 ```bash
